@@ -20,7 +20,7 @@ complier for Coq. Here we include only the relevant dependencies.
 
     	# coq_makefile -f _CoqProject -o Makefile
 
-2. ** Development Description **
+2. **Development Description**
 
 	We briefly describe here the contents of all the files in the source code.
 	Furthemore, we provide a separete file, called THEOREMS.md, that lists the
