@@ -9,23 +9,23 @@ complier for Coq. Here we include only the relevant dependencies.
 
 1. **Compilation Instructions** 
 
-Dependecies: Coq 8.8.2 
+	Dependecies: Coq 8.8.2 
 
-To compile: 
+	To compile: 
 
-    # make  
+    	# make  
 
-If you are trying to compile with a different version of Coq you may need to
-regenerate the makefile:
+	If you are trying to compile with a different version of Coq you may need to
+	regenerate the makefile:
 
-    # coq_makefile -f _CoqProject -o Makefile
+    	# coq_makefile -f _CoqProject -o Makefile
 
 2. ** Development Description **
 
-We briefly describe here the contents of all the files in the source code.
-Furthemore, we provide a separete file, called THEOREMS.md, that lists the
-the correspondance between the formal definitions and theorems and those
-presented in the paper.
+	We briefly describe here the contents of all the files in the source code.
+	Furthemore, we provide a separete file, called THEOREMS.md, that lists the
+	the correspondance between the formal definitions and theorems and those
+	presented in the paper.
 
     - cps.v       : definition of the CPS language
     - space_sem.v : Profiling semantics for CPS
@@ -54,9 +54,8 @@ presented in the paper.
 
 3. **Compiler**
 
-The sources of the compiler are publicly accessible [here](https://github.com/PrincetonUniversity/certicoq).
-The safe for space development is in the directory
-[theories/L6_PCPS/Heap](https://github.com/PrincetonUniversity/certicoq/tree/master/theories/L6_PCPS/Heap).
+	The sources of the compiler are publicly accessible [here](https://github.com/PrincetonUniversity/certicoq).
+	The safe for space development is in the directory [theories/L6_PCPS/Heap](https://github.com/PrincetonUniversity/certicoq/tree/master/theories/L6_PCPS/Heap).
    
  
     
