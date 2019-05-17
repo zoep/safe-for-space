@@ -8,8 +8,7 @@ paper. The transformation and its proof are parts of the CertiCoq cerified
 complier for Coq. Here we include only the relevant dependencies.
 
 
-1. Compilation Instructions
----------------------------
+1. **Compilation Instructions** 
    
 Dependecies: Coq 8.8.2 
    
@@ -23,8 +22,7 @@ regenerate the makefile:
     # coq_makefile -f _CoqProject -o Makefile
 
 
-2. Development Description
---------------------------
+2. ** Development Description **
 
 We briefly describe here the contents of all the files in the source code.
 Furthemore, we provide a separete file, called THEOREMS.md, that lists the
@@ -57,8 +55,7 @@ presented in the paper.
     - Maps.v, Coqlib.v : part of CompCert's general purpose libraries.
     
     
-3. Compiler
------------
+3. **Compiler**
 
 The sources of the compiler are publicly accessible [here](https://github.com/PrincetonUniversity/certicoq).
 The safe for space development is in the directory
