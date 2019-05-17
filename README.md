@@ -9,11 +9,15 @@ complier for Coq. Here we include only the relevant dependencies.
 
 1. **Compilation Instructions** 
 
-	Dependecies: Coq 8.8.2 
+	Dependecies: 
 
+		Coq 8.8.2 
+		coq-ext-lib (http://coq.io/opam/coq-ext-lib.0.9.3.html)
+		coq-template-coq (http://coq.io/opam/coq-ext-lib.0.10.1.html)
+		
 	To compile: 
 
-    	# make  
+    	> make -j N  # where N is the number of processors 
 
 	If you are trying to compile with a different version of Coq you may need to
 	regenerate the makefile:
