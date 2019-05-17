@@ -7,13 +7,12 @@ definitions of the language and logical relation framework presented in the
 paper. The transformation and its proof are parts of the CertiCoq cerified
 complier for Coq. Here we include only the relevant dependencies.
 
-
 1. **Compilation Instructions** 
-   
+
 Dependecies: Coq 8.8.2 
-   
+
 To compile: 
-    
+
     # make  
 
 If you are trying to compile with a different version of Coq you may need to
@@ -21,15 +20,13 @@ regenerate the makefile:
 
     # coq_makefile -f _CoqProject -o Makefile
 
-
 2. ** Development Description **
 
 We briefly describe here the contents of all the files in the source code.
 Furthemore, we provide a separete file, called THEOREMS.md, that lists the
 the correspondance between the formal definitions and theorems and those
 presented in the paper.
-  	
-   
+
     - cps.v       : definition of the CPS language
     - space_sem.v : Profiling semantics for CPS
     - Ensembles_util.v, map_util.v, functions.v
@@ -53,8 +50,8 @@ presented in the paper.
     - toplevel.v   : The top-level theorem for terminating and diverging programs programs 
     
     - Maps.v, Coqlib.v : part of CompCert's general purpose libraries.
-    
-    
+
+
 3. **Compiler**
 
 The sources of the compiler are publicly accessible [here](https://github.com/PrincetonUniversity/certicoq).
