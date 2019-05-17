@@ -43,7 +43,7 @@ complier for Coq. Here we include only the relevant dependencies.
     - GC.v         : GC definitions and lemmas 
     - cc_log_rel.v : The definitions of the logical relation and lemmas
     - compat.v     : Compatibility lemmas for the logical relation
-    - bounds.v     : Pre- and postcondition definitions and compatIBILITY lemmas lemmas
+    - bounds.v     : Pre- and postcondition definitions and compatibility lemmas lemmas
     - invariants.v : Additional environment invariants (for nonlocal variables and function names)
     - closure_conversion_correct.v : Fundamental theorem of the logical relation
     - closure_conversion_corresp.v : Soundness proof of the closure conversion program w.r.t. the inductive definition 
