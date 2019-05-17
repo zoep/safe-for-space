@@ -132,7 +132,7 @@ Module Top.
       
   (** ** Top-level theorem *) 
   Lemma closure_conversion_correct_top
-        (k : nat) (j : nat) (e1 e2 : exp) (C : exp_ctx) (Γ : var) (* dummy varaiable for environment *)
+        (k : nat) (j : nat) (e1 e2 : exp) (C : exp_ctx) (Γ : var) (* dummy variable for environment *)
         r1 c1 m1 :
     
     (* The source program has unique binders *)

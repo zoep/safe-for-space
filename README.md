@@ -9,7 +9,7 @@ complier for Coq. Here we include only the relevant dependencies.
 
 1. **Compilation Instructions** 
 
-	Dependecies: 
+	Dependencies: 
 
 		Coq 8.8.2 
 		coq-ext-lib (http://coq.io/opam/coq-ext-lib.0.9.3.html)
@@ -27,7 +27,7 @@ complier for Coq. Here we include only the relevant dependencies.
 2. **Development Description**
 
 	We briefly describe here the contents of all the files in the source code.
-	Furthemore, we provide a separete file, called THEOREMS.md, that lists the
+	Furthemore, we provide a separate file, called THEOREMS.md, that lists the
 	the correspondance between the formal definitions and theorems and those
 	presented in the paper.
 
