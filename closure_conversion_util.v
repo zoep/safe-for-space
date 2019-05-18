@@ -3,7 +3,7 @@
  *)
 
 From SFS Require Import cps cps_util set_util identifiers ctx
-                        Ensembles_util List_util functions tactics.
+                         Ensembles_util List_util functions tactics.
 From SFS Require Import closure_conversion heap heap_defs space_sem compat.
 
 From SFS Require Import Coqlib.

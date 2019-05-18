@@ -132,7 +132,7 @@ Module Top.
       
   (** ** Top-level theorem *) 
   Lemma closure_conversion_correct_top
-        (k : nat) (j : nat) (e1 e2 : exp) (C : exp_ctx) (Γ : var) (* dummy variable for environment *)
+        (k : nat) (j : nat) (e1 e2 : exp) (C : exp_ctx) (Γ : var) (* dummy varaiable for environment *)
         r1 c1 m1 :
     
     (* The source program has unique binders *)
@@ -147,7 +147,8 @@ Module Top.
     
     (* the source evaluates *)
     big_step emp (M.empty _) e1 r1 c1 m1 ->
-    (* and it is not a stuck program *)
+
+    (* and it is not a stuck program -- because currently we don't assume that r1 is a value (it can be out-of-time-exception) *)
     not_stuck emp (M.empty _) e1 ->
     
     exists (r2 : ans) (c2 m2 : nat) (b : Inj),
@@ -279,4 +280,5 @@ Module Top.
 End Top.
 
 Print Assumptions Top.closure_conversion_correct_top.
+
 Print Assumptions Top.closure_conversion_correct_top_div.
