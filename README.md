@@ -12,8 +12,19 @@ compiler for Coq. Here we include only the relevant dependencies.
 	Dependencies: 
 
 		Coq 8.8.2 
-		coq-ext-lib (http://coq.io/opam/coq-ext-lib.0.9.3.html)
-		coq-template-coq (http://coq.io/opam/coq-ext-lib.0.10.1.html)
+
+    Specific commits of coq-ext-lib and coq-template-coq that are installed as follows:
+
+    template-coq: 
+
+    download the zip from https://github.com/gmalecha/template-coq/tree/a290e03
+    and then make && make install 
+
+    coq-ext-lib:
+
+    download the zip from https://github.com/coq-ext-lib/coq-ext-lib/tree/5dd9cfa 
+    and then make && make install 
+
 		
 	To compile: 
 
